@@ -10,7 +10,7 @@ import Student from './components/Student';
 import Redirect from './components/Redirect';
 import history from './History';
 
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
   render() { 

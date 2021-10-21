@@ -16,7 +16,10 @@ class Navigation extends React.Component {
                     <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                    <Link to="/student/:studentname/:studentno?" >Student</Link>
+                    <Link to="/student/Rafa" >Student: Rafa</Link>
+                    </li>
+                    <li>
+                    <Link to="/student/Rafa/55555" >Student: Rafa no: 55555</Link>
                     </li>
                     <li>
                     <Link to="/redirect" >Redirect</Link>
